@@ -1,3 +1,4 @@
+import time
 def main():
     num1 = input("Ingrese el primer valor: ")
     num2 = input("Ingrese el segundo valor: ")
@@ -28,9 +29,11 @@ def main():
         print("El resultado de {} / {} es igual a {}".format(num1, num2, division))
         print("El resto de la división {} / {} es igual a {}".format(num1, num2, resto))
         print("El resultado de la potencia de {} elevado a {} es igual a {}".format(num1, num2, potencia))
+        time.sleep(10)
         
     else:
         print("No has introducido dos numeros")
+        time.sleep(10)
 
 if __name__ == "__main__":
     main()

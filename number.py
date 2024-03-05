@@ -1,3 +1,4 @@
+import time
 def main():
     while True:
         num = input("Ingrese un numero: ")
@@ -10,6 +11,7 @@ def main():
                 print ("El numero introducido es par")
         elif num =="salir":
             print("Cerrando el programa")
+            time.sleep(10)
             break
         else:
             print ("El caracter introducido no es un numero.")
