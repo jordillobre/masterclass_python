@@ -1,6 +1,3 @@
-#----------------------Enunciado--------------------------
-#Pide un número por pantalla y muestra si el resultado es un número o no.
-
 def main():
     while True:
         num = input("Ingrese un numero: ")

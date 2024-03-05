@@ -1,7 +1,3 @@
-#----------------------Enunciado--------------------------
-#Pide un nombre por pantalla, averigua su longitud con len(), y muestra el resultado de la
-#siguiente forma: “Hola <nombre_dado>, tu nombre tiene <longitud> letras.”
-
 def main():
     while True:
         us_name = input("Ingrese tu nombre de usuario (escribe 'salir' para terminar): ")
